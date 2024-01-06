@@ -1,0 +1,37 @@
+.box{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    
+}
+.box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid red;
+    width: 500px;
+    padding: 10px;
+    margin-top: 30px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+button{
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+span{
+    display: flex;
+    gap: 20px;
+}
